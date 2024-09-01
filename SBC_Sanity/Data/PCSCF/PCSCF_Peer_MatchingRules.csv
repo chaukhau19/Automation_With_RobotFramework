@@ -1,0 +1,5 @@
+#######################################${Name}  ${Header}	${Element_type}	  ${Element_name}	${Matching_value}    ${Codec_type}    ${Attribute}	  ${Instance}  	${Condition_Type}   ${Min_Occ}	  ${Max_Occ}
+admin,Cirpackwebadmin1234#,Login Page, Welcome admin,auto_MgR_1,P-Asserted-Identity,URI-HOST,#BLANK,"whitelist.cirpack.com",#BLANK,#BLANK,"^",NONE,1,10,From,URI-PARAM-NAME,user,5555,#BLANK,#BLANK,"*",IP,5,100
+admin,Cirpackwebadmin1234#,Login Page, Welcome admin,auto_MgR_2,Request-uri,URI-TEL-NUM,#BLANK,"^(\+33|00[ . ]*33)",#BLANK,#BLANK,"^",NONE,1,10,From,URI-PARAM-NAME,user,5555,#BLANK,#BLANK,"*",IP,5,100
+admin,Cirpackwebadmin1234#,Login Page, Welcome admin,auto_MgR_3,From,URI-PARAM-NAME,user,user=phone,#BLANK,#BLANK,"^",IPV6,1,10,From,URI-PARAM-NAME,Contact,maddr,#BLANK,#BLANK,"*",IP,5,100
+admin,Cirpackwebadmin1234#,Login Page, Welcome admin,auto_MgR_4,From,HEADER-PARAM-NAME,user,user=phone,#BLANK,#BLANK,"^",IPV6,1,10,From,HEADER-PARAM-NAME,Request-uri,transport,#BLANK,#BLANK,"*",IP,5,100

@@ -1,0 +1,8 @@
+#
+#BLANK,#BLANK,Login Page,Please log in to access this page.
+#BLANK,Cirpackwebadmin1234#,Login Page,Please log in to access this page.
+admin,#BLANK,Login Page,Please log in to access this page.
+invalid,invalid,Login Page,Invalid username or password.
+invalid,Cadmin,Login Page,Invalid username or password.
+admin,invalid,Login Page,Invalid username or password.
+admin,Cirpackwebadmin1234#,Web SBC, Welcome admin
